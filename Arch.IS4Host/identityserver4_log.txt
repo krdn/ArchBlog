@@ -1,0 +1,510 @@
+2018-06-19 22:41:47.874 +09:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-19 22:41:47.917 +09:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-19 22:41:47.918 +09:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-19 22:41:47.921 +09:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-19 22:41:47.923 +09:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-19 22:48:08.353 +09:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-19 22:48:08.394 +09:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-19 22:48:08.396 +09:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-19 22:48:08.397 +09:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-19 22:48:08.398 +09:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-19 22:52:00.303 +09:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-19 22:52:00.345 +09:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-19 22:52:00.347 +09:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-19 22:52:00.351 +09:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-19 22:52:00.361 +09:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-19 22:55:32.873 +09:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-19 22:55:32.919 +09:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-19 22:55:32.920 +09:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-19 22:55:32.922 +09:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-19 22:55:32.923 +09:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-19 22:59:58.185 +09:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-19 22:59:58.231 +09:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-19 22:59:58.234 +09:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-19 22:59:58.236 +09:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-19 22:59:58.238 +09:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-19 23:03:03.724 +09:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-19 23:03:03.765 +09:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-19 23:03:03.767 +09:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-19 23:03:03.768 +09:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-19 23:03:03.769 +09:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-19 23:15:18.570 +09:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-19 23:15:18.611 +09:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-19 23:15:18.613 +09:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-19 23:15:18.616 +09:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-19 23:15:18.618 +09:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-19 23:41:13.632 +09:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-19 23:41:13.673 +09:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-19 23:41:13.675 +09:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-19 23:41:13.677 +09:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-19 23:41:13.683 +09:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-19 23:41:13.804 +09:00 [WRN] Unable to bind to http://localhost:5000 on the IPv4 loopback interface: 'Error -4092 EACCES permission denied'.
+2018-06-19 23:41:13.811 +09:00 [WRN] Unable to bind to http://localhost:5000 on the IPv6 loopback interface: 'Error -4092 EACCES permission denied'.
+2018-06-19 23:41:13.815 +09:00 [FTL] Unable to start Kestrel.
+System.IO.IOException: Failed to bind to address http://localhost:5000. ---> System.AggregateException: One or more errors occurred. (Error -4092 EACCES permission denied) (Error -4092 EACCES permission denied) ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException: Error -4092 EACCES permission denied
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.LibuvFunctions.ThrowError(Int32 statusCode)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.LibuvFunctions.tcp_bind(UvTcpHandle handle, SockAddr& addr, Int32 flags)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvTcpHandle.Bind(IPEndPoint endPoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.ListenTcp(Boolean useFileHandle)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.CreateListenSocket()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.<>c.<StartAsync>b__8_0(Listener listener)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.LibuvThread.CallbackAdapter`1.<>c.<.cctor>b__3_1(Object callback, Object state)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.LibuvThread.DoPostWork()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.ListenerPrimary.<StartAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.<BindAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.<BindAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass23_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindEndpointAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindLocalhostAsync>d__6.MoveNext()
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindLocalhostAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindAddressAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.<BindAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<StartAsync>d__23`1.MoveNext()
+2018-06-19 23:45:33.526 +09:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-19 23:45:33.570 +09:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-19 23:45:33.573 +09:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-19 23:45:33.575 +09:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-19 23:45:33.577 +09:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-19 23:46:00.058 +09:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2018-06-19 23:46:00.095 +09:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2018-06-19 23:46:00.107 +09:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2018-06-19 23:46:00.116 +09:00 [DBG] Start discovery request
+2018-06-19 23:46:01.172 +09:00 [DBG] Found ["openid","profile","api1"] as all scopes in database
+2018-06-19 23:46:33.458 +09:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2018-06-19 23:46:33.468 +09:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2018-06-19 23:46:33.479 +09:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2018-06-19 23:46:33.486 +09:00 [DBG] Start discovery request
+2018-06-19 23:46:33.510 +09:00 [DBG] Found ["openid","profile","api1"] as all scopes in database
+2018-06-19 23:47:44.327 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-19 23:48:26.780 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-19 23:48:27.373 +09:00 [DBG] Augmenting SignInContext
+2018-06-19 23:48:27.378 +09:00 [DBG] Adding idp claim with value: local
+2018-06-19 23:48:27.380 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-19 23:48:27.384 +09:00 [DBG] Adding auth_time claim with value: 1529419707
+2018-06-19 23:48:27.407 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-19 23:48:27.439 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-19 23:48:44.769 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-19 23:48:44.801 +09:00 [DBG] Augmenting SignInContext
+2018-06-19 23:48:44.810 +09:00 [DBG] Adding idp claim with value: local
+2018-06-19 23:48:44.815 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-19 23:48:44.828 +09:00 [DBG] Adding auth_time claim with value: 1529419724
+2018-06-19 23:48:44.833 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-19 23:48:44.868 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-19 23:49:04.132 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-19 23:49:04.152 +09:00 [DBG] Augmenting SignInContext
+2018-06-19 23:49:04.160 +09:00 [DBG] Adding idp claim with value: local
+2018-06-19 23:49:04.166 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-19 23:49:04.168 +09:00 [DBG] Adding auth_time claim with value: 1529419744
+2018-06-19 23:49:04.171 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-19 23:49:04.195 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-19 23:49:32.432 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-19 23:49:32.454 +09:00 [DBG] Augmenting SignInContext
+2018-06-19 23:49:32.464 +09:00 [DBG] Adding idp claim with value: local
+2018-06-19 23:49:32.470 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-19 23:49:32.474 +09:00 [DBG] Adding auth_time claim with value: 1529419772
+2018-06-19 23:49:32.487 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-19 23:49:32.510 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-19 23:50:22.947 +09:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-19 23:50:22.998 +09:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-19 23:50:22.998 +09:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-19 23:50:22.998 +09:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-19 23:50:22.998 +09:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-19 23:50:32.813 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-19 23:50:46.099 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-19 23:50:46.948 +09:00 [DBG] Augmenting SignInContext
+2018-06-19 23:50:46.959 +09:00 [DBG] Adding idp claim with value: local
+2018-06-19 23:50:46.960 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-19 23:50:46.960 +09:00 [DBG] Adding auth_time claim with value: 1529419846
+2018-06-19 23:50:46.983 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-19 23:50:47.017 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-19 23:50:53.161 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-19 23:50:55.220 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-19 23:50:57.585 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-19 23:51:04.330 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-19 23:51:14.624 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-19 23:51:14.664 +09:00 [DBG] Augmenting SignInContext
+2018-06-19 23:51:14.664 +09:00 [DBG] Adding idp claim with value: local
+2018-06-19 23:51:14.664 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-19 23:51:14.664 +09:00 [DBG] Adding auth_time claim with value: 1529419874
+2018-06-19 23:51:14.665 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-19 23:51:14.692 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-19 23:51:38.770 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-19 23:53:18.222 +09:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-19 23:53:18.259 +09:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-19 23:53:18.259 +09:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-19 23:53:18.259 +09:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-19 23:53:18.259 +09:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-19 23:53:29.001 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-19 23:53:42.137 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-19 23:53:42.927 +09:00 [DBG] Augmenting SignInContext
+2018-06-19 23:53:42.940 +09:00 [DBG] Adding idp claim with value: local
+2018-06-19 23:53:42.941 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-19 23:53:42.941 +09:00 [DBG] Adding auth_time claim with value: 1529420022
+2018-06-19 23:53:42.967 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-19 23:53:42.991 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-19 23:53:55.699 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-19 23:54:49.059 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-19 23:54:58.978 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-19 23:59:37.976 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-19 23:59:45.222 +09:00 [DBG] Augmenting SignInContext
+2018-06-19 23:59:45.222 +09:00 [DBG] Adding idp claim with value: local
+2018-06-19 23:59:45.222 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-19 23:59:45.222 +09:00 [DBG] Adding auth_time claim with value: 1529420385
+2018-06-19 23:59:45.223 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-20 00:00:26.417 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 00:01:07.208 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 00:01:07.208 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 00:01:07.219 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 00:01:07.299 +09:00 [DBG] Augmenting SignInContext
+2018-06-20 00:01:07.299 +09:00 [DBG] Adding idp claim with value: local
+2018-06-20 00:01:07.300 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-20 00:01:07.300 +09:00 [DBG] Adding auth_time claim with value: 1529420467
+2018-06-20 00:01:07.300 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-20 00:01:07.398 +09:00 [DBG] Augmenting SignInContext
+2018-06-20 00:01:07.398 +09:00 [DBG] Adding idp claim with value: local
+2018-06-20 00:01:07.398 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-20 00:01:07.398 +09:00 [DBG] Adding auth_time claim with value: 1529420467
+2018-06-20 00:01:07.399 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-20 00:01:07.408 +09:00 [DBG] Augmenting SignInContext
+2018-06-20 00:01:07.408 +09:00 [DBG] Adding idp claim with value: local
+2018-06-20 00:01:07.409 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-20 00:01:07.409 +09:00 [DBG] Adding auth_time claim with value: 1529420467
+2018-06-20 00:01:07.410 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-20 00:01:07.427 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 00:02:18.374 +09:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-20 00:02:18.409 +09:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-20 00:02:18.409 +09:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-20 00:02:18.410 +09:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-20 00:02:18.410 +09:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-20 00:02:29.019 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 00:02:57.576 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 00:02:58.407 +09:00 [DBG] Augmenting SignInContext
+2018-06-20 00:02:58.420 +09:00 [DBG] Adding idp claim with value: local
+2018-06-20 00:02:58.420 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-20 00:02:58.420 +09:00 [DBG] Adding auth_time claim with value: 1529420578
+2018-06-20 00:02:58.445 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-20 00:02:58.473 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 00:05:12.281 +09:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-20 00:05:12.328 +09:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-20 00:05:12.329 +09:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-20 00:05:12.329 +09:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-20 00:05:12.329 +09:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-20 00:05:24.922 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 00:05:48.582 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 00:05:49.471 +09:00 [DBG] Augmenting SignInContext
+2018-06-20 00:05:49.485 +09:00 [DBG] Adding idp claim with value: local
+2018-06-20 00:05:49.485 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-20 00:05:49.486 +09:00 [DBG] Adding auth_time claim with value: 1529420749
+2018-06-20 00:05:49.515 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-20 00:05:49.565 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 00:05:57.651 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 00:07:05.516 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 00:07:25.736 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 00:07:27.765 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 00:09:22.655 +09:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-20 00:09:22.700 +09:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-20 00:09:22.703 +09:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-20 00:09:22.706 +09:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-20 00:09:22.716 +09:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-20 00:09:22.849 +09:00 [WRN] Unable to bind to http://localhost:5000 on the IPv4 loopback interface: 'Error -4092 EACCES permission denied'.
+2018-06-20 00:09:22.861 +09:00 [WRN] Unable to bind to http://localhost:5000 on the IPv6 loopback interface: 'Error -4092 EACCES permission denied'.
+2018-06-20 00:09:22.866 +09:00 [FTL] Unable to start Kestrel.
+System.IO.IOException: Failed to bind to address http://localhost:5000. ---> System.AggregateException: One or more errors occurred. (Error -4092 EACCES permission denied) (Error -4092 EACCES permission denied) ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException: Error -4092 EACCES permission denied
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.LibuvFunctions.ThrowError(Int32 statusCode)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.LibuvFunctions.tcp_bind(UvTcpHandle handle, SockAddr& addr, Int32 flags)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvTcpHandle.Bind(IPEndPoint endPoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.ListenTcp(Boolean useFileHandle)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.CreateListenSocket()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.<>c.<StartAsync>b__8_0(Listener listener)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.LibuvThread.CallbackAdapter`1.<>c.<.cctor>b__3_1(Object callback, Object state)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.LibuvThread.DoPostWork()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.ListenerPrimary.<StartAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.<BindAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.<BindAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass23_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindEndpointAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindLocalhostAsync>d__6.MoveNext()
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindLocalhostAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindAddressAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.<BindAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<StartAsync>d__23`1.MoveNext()
+2018-06-20 00:09:49.182 +09:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-20 00:09:49.233 +09:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-20 00:09:49.239 +09:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-20 00:09:49.243 +09:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-20 00:09:49.256 +09:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-20 00:10:09.287 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 00:10:24.809 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 00:10:25.567 +09:00 [DBG] Augmenting SignInContext
+2018-06-20 00:10:25.573 +09:00 [DBG] Adding idp claim with value: local
+2018-06-20 00:10:25.577 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-20 00:10:25.579 +09:00 [DBG] Adding auth_time claim with value: 1529421025
+2018-06-20 00:10:25.610 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-20 00:10:25.638 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 00:10:58.474 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 00:11:29.628 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 00:11:29.661 +09:00 [DBG] Augmenting SignInContext
+2018-06-20 00:11:29.680 +09:00 [DBG] Adding idp claim with value: local
+2018-06-20 00:11:29.686 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-20 00:11:29.688 +09:00 [DBG] Adding auth_time claim with value: 1529421089
+2018-06-20 00:11:29.690 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-20 00:11:29.707 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 00:22:40.507 +09:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-20 00:22:40.537 +09:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-20 00:22:40.537 +09:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-20 00:22:40.537 +09:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-20 00:22:40.538 +09:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-20 00:22:51.644 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 00:23:02.198 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 00:23:03.077 +09:00 [DBG] Augmenting SignInContext
+2018-06-20 00:23:03.093 +09:00 [DBG] Adding idp claim with value: local
+2018-06-20 00:23:03.093 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-20 00:23:03.094 +09:00 [DBG] Adding auth_time claim with value: 1529421783
+2018-06-20 00:23:03.122 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-20 00:23:03.147 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 00:24:16.992 +09:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-20 00:24:17.027 +09:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-20 00:24:17.027 +09:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-20 00:24:17.027 +09:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-20 00:24:17.027 +09:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-20 00:24:43.150 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 00:24:56.221 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 00:24:56.863 +09:00 [DBG] Augmenting SignInContext
+2018-06-20 00:24:56.878 +09:00 [DBG] Adding idp claim with value: local
+2018-06-20 00:24:56.878 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-20 00:24:56.879 +09:00 [DBG] Adding auth_time claim with value: 1529421896
+2018-06-20 00:24:56.904 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-20 00:24:56.933 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 00:32:42.355 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 00:32:57.442 +09:00 [DBG] Augmenting SignInContext
+2018-06-20 00:32:57.442 +09:00 [DBG] Adding idp claim with value: local
+2018-06-20 00:32:57.442 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-20 00:32:57.442 +09:00 [DBG] Adding auth_time claim with value: 1529422377
+2018-06-20 00:32:57.443 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-20 00:34:29.508 +09:00 [WRN] Heartbeat took longer than ""00:00:01"" at ""2018-06-19T15:34:13.8124999+00:00"".
+2018-06-20 00:34:29.540 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 09:20:01.515 +09:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-20 09:20:01.569 +09:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-20 09:20:01.571 +09:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-20 09:20:01.572 +09:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-20 09:20:01.574 +09:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-20 09:28:10.064 +09:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-20 09:28:10.096 +09:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-20 09:28:10.097 +09:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-20 09:28:10.099 +09:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-20 09:28:10.101 +09:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-20 09:29:12.269 +09:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-20 09:29:12.314 +09:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-20 09:29:12.316 +09:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-20 09:29:12.318 +09:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-20 09:29:12.320 +09:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-20 09:36:49.464 +09:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-20 09:36:49.494 +09:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-20 09:36:49.495 +09:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-20 09:36:49.497 +09:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-20 09:36:49.498 +09:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-20 09:37:18.003 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 09:37:29.635 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 09:37:30.108 +09:00 [WRN] Invalid password for user 501dc101-c297-45ef-ac25-23388af730b8.
+2018-06-20 09:37:30.114 +09:00 [WRN] User 501dc101-c297-45ef-ac25-23388af730b8 failed to provide the correct password.
+2018-06-20 09:37:50.638 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 09:37:50.961 +09:00 [DBG] Augmenting SignInContext
+2018-06-20 09:37:50.967 +09:00 [DBG] Adding idp claim with value: local
+2018-06-20 09:37:50.969 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-20 09:37:50.971 +09:00 [DBG] Adding auth_time claim with value: 1529455070
+2018-06-20 09:37:50.991 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-20 09:37:51.005 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 23:26:40.597 +09:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-20 23:26:40.639 +09:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-20 23:26:40.640 +09:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-20 23:26:40.641 +09:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-20 23:26:40.643 +09:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-20 23:33:36.193 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 23:34:49.796 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 23:34:52.396 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 23:37:12.750 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 23:37:14.058 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 23:37:16.392 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 23:39:08.669 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 23:45:41.299 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 23:46:02.588 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 23:46:02.649 +09:00 [WRN] Invalid password for user 0266e56b-fa39-4f4a-9f7c-ca0b3e5fe83a.
+2018-06-20 23:46:02.654 +09:00 [WRN] User 0266e56b-fa39-4f4a-9f7c-ca0b3e5fe83a failed to provide the correct password.
+2018-06-20 23:46:10.154 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 23:46:10.464 +09:00 [DBG] Augmenting SignInContext
+2018-06-20 23:46:10.472 +09:00 [DBG] Adding idp claim with value: local
+2018-06-20 23:46:10.476 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-20 23:46:10.478 +09:00 [DBG] Adding auth_time claim with value: 1529505970
+2018-06-20 23:46:10.498 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-20 23:46:10.509 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 23:53:08.465 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 23:53:17.385 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 23:53:17.432 +09:00 [DBG] Augmenting SignInContext
+2018-06-20 23:53:17.438 +09:00 [DBG] Adding idp claim with value: local
+2018-06-20 23:53:17.439 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-20 23:53:17.441 +09:00 [DBG] Adding auth_time claim with value: 1529506397
+2018-06-20 23:53:17.443 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-20 23:53:17.453 +09:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-06-20 23:53:17.468 +09:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-06-20 23:53:17.515 +09:00 [DBG] 0 persisted grants found for 0266e56b-fa39-4f4a-9f7c-ca0b3e5fe83a
+2018-06-20 23:56:58.866 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 23:57:06.234 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 23:57:06.249 +09:00 [DBG] Augmenting SignInContext
+2018-06-20 23:57:06.251 +09:00 [DBG] Adding idp claim with value: local
+2018-06-20 23:57:06.253 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-20 23:57:06.254 +09:00 [DBG] Adding auth_time claim with value: 1529506626
+2018-06-20 23:57:06.256 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-20 23:57:06.261 +09:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-06-20 23:57:06.263 +09:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-06-20 23:57:06.267 +09:00 [DBG] 0 persisted grants found for 0266e56b-fa39-4f4a-9f7c-ca0b3e5fe83a
+2018-06-20 23:57:15.295 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 23:57:24.253 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 23:57:24.268 +09:00 [DBG] Augmenting SignInContext
+2018-06-20 23:57:24.270 +09:00 [DBG] Adding idp claim with value: local
+2018-06-20 23:57:24.273 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-20 23:57:24.275 +09:00 [DBG] Adding auth_time claim with value: 1529506644
+2018-06-20 23:57:24.278 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-20 23:57:24.290 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 23:57:46.813 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 23:57:53.386 +09:00 [DBG] Augmenting SignInContext
+2018-06-20 23:57:53.389 +09:00 [DBG] Adding idp claim with value: local
+2018-06-20 23:57:53.391 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-20 23:57:53.393 +09:00 [DBG] Adding auth_time claim with value: 1529506673
+2018-06-20 23:57:53.394 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-20 23:57:53.401 +09:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-06-20 23:57:53.404 +09:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-06-20 23:57:53.407 +09:00 [DBG] 0 persisted grants found for 0266e56b-fa39-4f4a-9f7c-ca0b3e5fe83a
+2018-06-20 23:57:57.124 +09:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-06-20 23:57:57.127 +09:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-06-20 23:57:58.813 +09:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-06-20 23:57:58.816 +09:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-06-20 23:57:58.837 +09:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2018-06-20 23:57:58.841 +09:00 [INF] AuthenticationScheme: Identity.External signed out.
+2018-06-20 23:57:58.844 +09:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2018-06-20 23:58:36.812 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 23:58:45.163 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 23:58:45.179 +09:00 [DBG] Augmenting SignInContext
+2018-06-20 23:58:45.181 +09:00 [DBG] Adding idp claim with value: local
+2018-06-20 23:58:45.183 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-20 23:58:45.184 +09:00 [DBG] Adding auth_time claim with value: 1529506725
+2018-06-20 23:58:45.186 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-20 23:58:45.196 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-20 23:58:54.177 +09:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-06-20 23:58:54.179 +09:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-06-20 23:58:54.921 +09:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-06-20 23:58:54.924 +09:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-06-20 23:58:56.409 +09:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-06-20 23:58:56.412 +09:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-06-20 23:58:56.416 +09:00 [DBG] 0 persisted grants found for 0266e56b-fa39-4f4a-9f7c-ca0b3e5fe83a
+2018-06-20 23:58:59.057 +09:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-06-20 23:58:59.059 +09:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-06-20 23:59:00.273 +09:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-20 23:59:00.278 +09:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-06-20 23:59:00.282 +09:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-06-20 23:59:00.285 +09:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2018-06-20 23:59:00.287 +09:00 [INF] AuthenticationScheme: Identity.External signed out.
+2018-06-20 23:59:00.289 +09:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2018-06-20 23:59:02.720 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-21 00:04:21.649 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-21 00:05:47.227 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-21 00:05:59.716 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-21 00:06:55.251 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-21 00:07:03.412 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-21 00:07:03.458 +09:00 [DBG] Augmenting SignInContext
+2018-06-21 00:07:03.461 +09:00 [DBG] Adding idp claim with value: local
+2018-06-21 00:07:03.463 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-21 00:07:03.464 +09:00 [DBG] Adding auth_time claim with value: 1529507223
+2018-06-21 00:07:03.465 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-21 00:07:03.473 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-21 00:13:21.624 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-21 00:13:23.328 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-21 00:13:23.379 +09:00 [DBG] Augmenting SignInContext
+2018-06-21 00:13:23.381 +09:00 [DBG] Adding idp claim with value: local
+2018-06-21 00:13:23.383 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-21 00:13:23.385 +09:00 [DBG] Adding auth_time claim with value: 1529507603
+2018-06-21 00:13:23.388 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-21 00:13:23.396 +09:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-06-21 00:13:23.401 +09:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-06-21 00:13:23.405 +09:00 [DBG] 0 persisted grants found for 0266e56b-fa39-4f4a-9f7c-ca0b3e5fe83a
+2018-06-21 00:13:29.648 +09:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-06-21 00:13:29.651 +09:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-06-21 00:13:29.657 +09:00 [DBG] 0 persisted grants found for 0266e56b-fa39-4f4a-9f7c-ca0b3e5fe83a
+2018-06-21 00:30:37.170 +09:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-06-21 00:30:37.203 +09:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-06-21 00:30:37.205 +09:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-06-21 00:30:37.207 +09:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-06-21 00:30:37.209 +09:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-06-21 00:32:10.217 +09:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-06-21 00:32:16.025 +09:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-06-21 00:32:16.549 +09:00 [DBG] Augmenting SignInContext
+2018-06-21 00:32:16.555 +09:00 [DBG] Adding idp claim with value: local
+2018-06-21 00:32:16.558 +09:00 [DBG] Adding amr claim with value: pwd
+2018-06-21 00:32:16.559 +09:00 [DBG] Adding auth_time claim with value: 1529508736
+2018-06-21 00:32:16.572 +09:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-06-21 00:32:16.597 +09:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-06-21 00:32:16.603 +09:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-06-21 00:32:16.629 +09:00 [DBG] 0 persisted grants found for 0266e56b-fa39-4f4a-9f7c-ca0b3e5fe83a
